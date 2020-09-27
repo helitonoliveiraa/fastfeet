@@ -18,7 +18,6 @@ export const Content = styled.div`
   justify-content: center;
 
   width: 360px;
-  height: 425px;
   padding: 60px 30px;
   border-radius: 4px;
   box-shadow: 0px 0px 10px ${color.middleGrey};
@@ -31,6 +30,15 @@ export const Content = styled.div`
 
     form {
       margin-top: 40px;
+
+      span {
+        display: block;
+        margin-bottom: 10px;
+        align-self: flex-start;
+        color: #fb6f91;
+        font-weight: normal;
+        font-size: 12px;
+      }
 
       label {
         font-size: 14px;

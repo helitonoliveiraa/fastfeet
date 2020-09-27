@@ -24,26 +24,27 @@ module.exports = {
   plugins: [
     'react',
     'prettier',
-    'react-hooks'
+    'react-hooks',
   ],
   rules: {
     'prettier/prettier': 'error',
     'arrow-parens': ['error', 'as-needed'],
-    'react/jsx-filename-extension': ['warn', { extensions: ['.jsx', '.js'] }],
+    'react/jsx-filename-extension': ['warn', { extensions: ['jsx', '.js'] }],
     'react/jsx-props-no-spreading': 'off',
     'import/prefer-default-export': 'off',
     'no-underscore-dangle': 'off',
     'no-param-reassign': 'off',
     'camelcase': 'off',
     'no-console': ["error", { allow: ["tron"] }],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
   },
   settings: {
-    "import/extensions": [".js", ".jsx"],
+    'import/extensions': ['.js', '.jsx'],
     "import/resolver": {
       "babel-plugin-root-import": {
-        "rootPathPrefix": "~",
-        "rootPathSuffix": "src"
-      }
-    }
-  }
+        rootPathSuffix: "src"
+      },
+    },
+  },
 };
