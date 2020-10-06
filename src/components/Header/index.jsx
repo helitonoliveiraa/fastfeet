@@ -13,10 +13,10 @@ export default function Header() {
           <img src={logo} alt="FastFeet" />
 
           <Menu>
-            <li>ENCOMENDAS</li>
-            <li>ENTRAGADORES</li>
-            <li>DESTINATÁRIOS</li>
-            <li>PROBLEMAS</li>
+            <li to="/delivey">ENCOMENDAS</li>
+            <li to="teste">ENTRAGADORES</li>
+            <li to="teste">DESTINATÁRIOS</li>
+            <li to="teste">PROBLEMAS</li>
           </Menu>
         </div>
 
