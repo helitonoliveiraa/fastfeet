@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Route, Redirect } from 'react-router-dom';
 
-import DefaultLayout from '~/components/Header';
+import DefaultLayout from '../components/Header';
 
 import { store } from '../store';
 
